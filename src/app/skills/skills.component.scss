@@ -1,0 +1,12 @@
+section {
+  display: grid;
+  width: 100%;
+  height: 50vh;
+  grid-template: "baseSkill specialSkill";
+}
+app-base-skill {
+  grid-area: baseSkill;
+}
+app-special-skill {
+  grid-area: specialSkill;
+}

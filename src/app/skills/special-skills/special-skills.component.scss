@@ -1,0 +1,18 @@
+.special-skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 25vw;
+  text-align: left;
+  .attributes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+.skillList {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}

@@ -1,0 +1,15 @@
+section {
+  display: grid;
+  width: 100%;
+  height: 30vh;
+  grid-template: "character stats combat" 1fr;
+}
+app-combat {
+  grid-area: combat;
+}
+app-charac-stats {
+  grid-area: stats;
+}
+app-character {
+  grid-area: character;
+}
